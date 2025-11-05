@@ -1,0 +1,66 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #3a3a3a;
+}
+
+.biblioteca-container {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+#livros-lista {
+  margin-bottom: 20px;
+}
+
+.livro {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.disponivel {
+  color: green;
+}
+
+.indisponivel {
+  color: red;
+}
+
+.acoes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+#acessar input {
+  flex: 1;
+}
+
+button {
+  padding: 8px 12px;
+  background: #3b82f6;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+#mensagem {
+  margin-top: 10px;
+  font-weight: bold;
+}
